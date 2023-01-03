@@ -1,5 +1,4 @@
 #+title: Readme
 
-* README
-** Topo
+* Topo
     Ceci est une liste de projets d'Epitech tek1, tek2, tek3 (attention au *-42*). Peut toujours servir d'inspiration et seulement inspiration, car c'est toujours mieux quand on le fait sois-même

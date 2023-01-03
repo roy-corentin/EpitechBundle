@@ -1,0 +1,30 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/croy/delivery/B-YEP-400-BDX-4-1-indiestudio-arthur.decaen/CMakeFiles/CMakeScratch/TryCompile-HqcRJD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ed15a/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile cmTC_ed15a/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/croy/delivery/B-YEP-400-BDX-4-1-indiestudio-arthur.decaen/CMakeFiles/CMakeScratch/TryCompile-P490bJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fcc5a/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile cmTC_fcc5a/fast && 
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/croy/delivery/B-YEP-400-BDX-4-1-indiestudio-arthur.decaen/CMakeFiles/CMakeScratch/TryCompile-VoCtzv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2143b/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile cmTC_2143b/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/croy/delivery/B-YEP-400-BDX-4-1-indiestudio-arthur.decaen/CMakeFiles/CMakeScratch/TryCompile-85sASm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac2fc/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile cmTC_ac2fc/fast && 
+
+

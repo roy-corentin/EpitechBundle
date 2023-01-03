@@ -1,4 +1,0 @@
-clang
-%cpp %hpp -std=c++2a
-%cpp %hpp -Iinclude
--Iinclude

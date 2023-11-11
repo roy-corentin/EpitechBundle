@@ -8,7 +8,9 @@
     - *MscPro 1*:
         
     Peut toujours servir *d'inspiration* et seulement *d'inspiration*.
+
     Car
   #+begin_quote
   C'est toujours mieux quand c'est fait sois-même.
   #+end_quote
+  Bien évidemment !

@@ -1,4 +1,14 @@
 #+title: Readme
 
-* Topo
-    Ceci est une liste de projets d'Epitech tek1, tek2, tek3 (attention au *-42*). Peut toujours servir d'inspiration et seulement inspiration, car c'est toujours mieux quand on le fait sois-même.
+* WHAT IS IT?
+    Liste de certains de mes projets à Epitech /Attention au *-42* !/ :
+    - =Tek1=:
+    - =Tek2:= ~IndiesStudio~, ~Hotline~
+    - =Tek3=: ~Area~, ~Gomoku~
+    - =MscPro 1=:
+
+    Peut toujours servir *d'inspiration* et seulement *d'inspiration*.
+    Car
+  #+begin_quote
+  C'est toujours mieux quand c'est fait sois-même.
+  #+end_quote

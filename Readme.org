@@ -2,10 +2,10 @@
 
 * WHAT IS IT?
     Liste de certains de mes projets à Epitech (/Attention au/ *-42* /!/) :
-    - =Tek1=:
-    - =Tek2:= ~IndiesStudio~, ~Hotline~
-    - =Tek3=: ~Area~, ~Gomoku~
-    - =MscPro 1=:
+    - *Tek1*:
+    - *Tek2:* ~IndiesStudio~, ~Hotline~
+    - *Tek3*: ~Area~, ~Gomoku~
+    - *MscPro 1*:
         
     Peut toujours servir *d'inspiration* et seulement *d'inspiration*.
     Car

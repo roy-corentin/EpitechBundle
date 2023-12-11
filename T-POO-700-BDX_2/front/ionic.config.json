@@ -1,0 +1,7 @@
+{
+  "name": "time-manager-webapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

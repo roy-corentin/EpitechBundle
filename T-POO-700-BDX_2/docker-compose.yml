@@ -1,0 +1,51 @@
+services:
+  front:
+    build:
+      context: ./time-manager-webapp
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    depends_on:
+      - phoenix
+
+  phoenix:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    volumes:
+      - ./api/config:/app/config
+      - ./api/lib:/app/lib
+      - ./api/priv:/app/priv
+      - ./api/mix.exs:/app/mix.exs
+      - ./api/mix.lock:/app/mix.lock
+      - ./api/test:/app/test
+    ports:
+      - 4000:4000
+    depends_on:
+      - db
+    restart: always
+
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "time_manager_api_dev"
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./time_manager_api_dev:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8282:8282"
+    command:
+      - "php"
+      - "-S"
+      - "[::]:8282"
+      - "-t"
+      - "/var/www/html"
+volumes:
+  time_manager_api_dev:

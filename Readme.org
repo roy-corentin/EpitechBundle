@@ -5,7 +5,7 @@
     - *Tek1*:
     - *Tek2:* ~IndiesStudio~, ~Hotline~
     - *Tek3*: ~Area~, ~Gomoku~
-    - *MscPro 1*:
+    - *MscPro 1*: ~TimeManager~
         
     Peut toujours servir *d'inspiration* et seulement *d'inspiration*.
 

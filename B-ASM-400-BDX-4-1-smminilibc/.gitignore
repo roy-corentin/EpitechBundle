@@ -1,0 +1,9 @@
+*.o
+*.gcda
+*.gcno
+vgcore*
+.vscode
+a.out
+main.c
+libasm.so
+test

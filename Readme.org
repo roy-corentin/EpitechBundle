@@ -1,16 +1,16 @@
 #+title: Readme
 
 * WHAT IS IT?
-    Liste de certains de mes projets à Epitech (/Attention au/ *-42* /!/) :
-    - *Tek1*:
-    - *Tek2:* ~IndiesStudio~, ~Hotline~
-    - *Tek3*: ~Area~, ~Gomoku~
-    - *MscPro 1*: ~TimeManager~
+Liste de certains de mes projets à Epitech (/Attention au/ *-42* /!/) :
+ - *Tek1*:
+ - *Tek2:* ~IndiesStudio~, ~Hotline~
+ - *Tek3*: ~Area~, ~Gomoku~ =asmminilibc=
+ - *MscPro 1*: ~TimeManager~
         
-    Peut toujours servir *d'inspiration* et seulement *d'inspiration*.
+Peut toujours servir *d'inspiration* et seulement *d'inspiration*.
 
-    Car
-  #+begin_quote
-  C'est toujours mieux quand c'est fait sois-même.
-  #+end_quote
-  Bien évidemment !
+Car
+#+begin_quote
+C'est toujours mieux quand c'est fait sois-même.
+#+end_quote
+Bien évidemment !

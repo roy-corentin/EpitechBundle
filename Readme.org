@@ -3,7 +3,7 @@
 * WHAT IS IT?
 Liste de certains de mes projets à Epitech (/Attention au/ *-42* /!/) :
  - *Tek1*:
- - *Tek2:* ~IndiesStudio~, ~Hotline~
+ - *Tek2:* ~IndiesStudio~, ~Hotline~, =PDGD04pm=
  - *Tek3*: ~Area~, ~Gomoku~ =asmminilibc=
  - *MscPro 1*: ~TimeManager~
         

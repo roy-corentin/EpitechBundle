@@ -1,0 +1,23 @@
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Box {
+    width: 100%;
+}
+
+.map {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.leaflet-bottom.leaflet-right {
+    display: none;
+}

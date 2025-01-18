@@ -1,0 +1,49 @@
+services:
+  web:
+    build: .
+    tty: true
+    stdin_open: true
+    command: "./entrypoint.sh"
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:16.2-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+      POSTGRES_DB: ${POSTGRES_DB:-postgres}
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8282:8282
+    command: ["php", "-S", "[::]:8282", "-t", "/var/www/html"]
+
+  redis:
+    image: redis:7.2.4-alpine
+    restart: always
+    ports:
+      - 6379:6379
+    command: ["redis-server", "--save", "60", "1", "--loglevel", "warning"]
+    environment:
+      REDIS_HOST: "redis"
+      REDIS_PORT: "6379"
+    volumes:
+      - cache:/data
+
+volumes:
+  cache:
+    driver: local
+  postgres_data:
